@@ -33,5 +33,7 @@ ggtree(tre, ) %<+% df +
     
     geom_text2(aes(label= UFboot, subset = (UFboot >=95)), vjust = 0, hjust = 1, size = 2) +
     xlim(NA,0.3) + geom_treescale()
-ggtree(tre, ) + geom_tiplab() + xlim(NA,0.3)
+
+# check topology if some branches are too short ro recognize.
+# ggtree(tre, ) + geom_tiplab() + xlim(NA,0.3)
 
