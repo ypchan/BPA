@@ -23,7 +23,7 @@ outgroup_label <- 'Melanconiella_hyperopta_CBS_131696'
 tree_string <- readLines('05_iqtree/iqtree_ml.treefile')
 binary_tree_string <- mid_root_iqtree(tree_string, outgroup_label)
 tree_connection <- textConnection(binary_tree_string, open = "r")
-tre <- read.iqtree('05_iqtree/iqtree_ml.treefile')
+tre <- read.iqtree(tree_connection)
 close(tree_connection)
 
 # we can adjust the width of the tree by modfying xlim(NA, width)
