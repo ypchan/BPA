@@ -131,6 +131,7 @@ def mrbayes_template(partition_model_dict, partition_len_dict, concatenated_dict
 
     with open(mrbayes_file, 'wt') as ofh:
         ofh.write('#NEXUS\n')
+        ofh.write('Begin data;\n')
         ofh.write(f'  DIMENSIONS NTAX={ntaxa} NCHAR={nchar};\n')
         ofh.write(f'  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE;\n')
 
