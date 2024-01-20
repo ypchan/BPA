@@ -2,7 +2,7 @@
 
 function help() {
 	echo ""
-	echo "convert_mrbayes_sampletrees_style_for_logcombiner.sh -- convert mrbayes sample trees file(*.run#.t) for the beast tool logcombiner"
+	echo "convert_mrbayes_sampletrees_for_logcombiner.sh -- convert mrbayes sample trees file(*.run#.t) for the beast tool logcombiner"
 	echo ""
 	echo "DATE: 2021-03-06"
 	echo "BUGS: Any bugs should be reported to chenyanpeng1992@outlook.com"
