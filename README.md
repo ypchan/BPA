@@ -4,7 +4,7 @@
 
 BPA is a bioinformatics pipeline designed for [briefly describe your purpose]. It supports a range of scripts for processing and analyzing genomic data.
 
-![Pipeline Overview](images/pipeline.png)
+![Pipeline Overview](images/pipeline.jpg)
 
 ## Installation
 
