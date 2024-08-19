@@ -2,7 +2,7 @@
 
 ## Overview
 
-BPA is a bioinformatics pipeline designed for [briefly describe your purpose]. It supports a range of scripts for processing and analyzing genomic data.
+BPA is a bioinformatics pipeline designed for barcode sequence-based phylogenetic analysis. It supports a range of scripts for processing and analyzing batcode data.
 
 ![Pipeline Overview](images/pipeline.jpg)
 
